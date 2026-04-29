@@ -30,6 +30,6 @@ public class Compra {
     }
 
     public void setValorFrete(double valorFrete) {
-        this.valorFrete = valorFrete > 0 ? valorFrete : 0; // é maior que 0? se não vai ser 0, pra não ficar negativo.
+        this.valorFrete = valorFrete
     }
 }
